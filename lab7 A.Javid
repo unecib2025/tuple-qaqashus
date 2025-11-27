@@ -1,0 +1,59 @@
+# lab 7
+
+# Задача 1
+# hashes = ("abc123", "ffd222", "9af010", "ffd222", "x0x0x0")
+# print("Количество вхождений:", hashes.count("ffd222"))
+
+# Задача 2
+# users = ("guest", "moderator", "admin", "root")
+# print("Индекс admin:", users.index("admin"))
+
+# Задача 3
+# key_params = ("AES", 256, "CBC")
+# algorithm, key_size, mode = key_params
+# print("Algorithm:", algorithm)
+# print("Key size:", key_size)
+# print("Mode:", mode)
+
+# Задача 4
+# log = ("login", "download", "upload", "logout")
+# print(log[-1])
+
+# Задача 5
+# ips = ("192.168.0.1", "10.0.0.2", "172.16.0.3")
+# ip = input("Введите IP: ")
+# if ip in ips:
+#     print("Найдено")
+# else:
+#     print("Нет в списке")
+
+# Задача 6
+# name = input("Введите имя: ")
+# role = input("Введите роль: ")
+# status = input("Введите статус: ")
+# data = (name, role, status)
+# print(data)
+
+# Задача 7
+# access = ("read", "write", "execute")
+# new_value = input("Введите новое значение: ")
+# new_access = (access[0], new_value, access[2])
+# print(new_access)
+
+# Задача 8
+# attempts = ("success", "fail", "fail", "success", "fail", "fail")
+# print("success:", attempts.count("success"))
+# print("fail:", attempts.count("fail"))
+
+# Задача 9
+# admins = ("root", "admin")
+# users = ("alex", "bob")
+# merged = admins + users
+# print(merged)
+
+# Задача 10
+# logs = ("login", "upload", "download", "logout")
+# start, *middle, end = logs
+# print("Start:", start)
+# print("Middle:", tuple(middle))
+# print("End:", end)
